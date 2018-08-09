@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CORE.NG.API", "CORE.NG.API\CORE.NG.API.csproj", "{D5AA64A5-F54A-4456-9240-ABDCE94B6596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORE.NG.UOW", "CORE.NG.UOW\CORE.NG.UOW.csproj", "{9F25C2C1-8559-4901-8754-7DDA1A4BBAF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5AA64A5-F54A-4456-9240-ABDCE94B6596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AA64A5-F54A-4456-9240-ABDCE94B6596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AA64A5-F54A-4456-9240-ABDCE94B6596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AA64A5-F54A-4456-9240-ABDCE94B6596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F25C2C1-8559-4901-8754-7DDA1A4BBAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F25C2C1-8559-4901-8754-7DDA1A4BBAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F25C2C1-8559-4901-8754-7DDA1A4BBAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F25C2C1-8559-4901-8754-7DDA1A4BBAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F6322AD-295F-4BA5-A353-23613DB21377}
+	EndGlobalSection
+EndGlobal
