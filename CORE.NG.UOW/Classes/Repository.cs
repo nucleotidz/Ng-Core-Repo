@@ -1,12 +1,16 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
+﻿// Class Name Repository
+// Author- Ahmar Husain
+// Compnay - (EY GDS)
 
 namespace CORE.NG.UOW
 {
+
+    using Microsoft.EntityFrameworkCore;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Linq.Expressions;
+
     /// <summary>
     /// Generic class for Repositories.
     /// </summary>

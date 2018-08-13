@@ -1,4 +1,6 @@
-﻿
+﻿// Interface Name IRepository
+// Author- Ahmar Husain
+// Compnay - (EY GDS)
 
 namespace CORE.NG.UOW
 {

@@ -1,11 +1,14 @@
-﻿
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿// Class Name UnitOfWork
+// Author- Ahmar Husain
+// Compnay - (EY GDS)
 
 namespace CORE.NG.UOW
 {
+    using Microsoft.EntityFrameworkCore;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
     /// <summary>
     /// Generic class to handle multiple local transactions as a single unit of work.
     /// </summary>

@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Interface Name IBaseRepository
+// Author- Ahmar Husain
+// Compnay - (EY GDS)
 
 namespace CORE.NG.UOW
 {

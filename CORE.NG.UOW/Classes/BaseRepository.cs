@@ -1,4 +1,6 @@
-﻿
+﻿// Class Name BaseRepository
+// Author- Ahmar Husain
+// Compnay - (EY GDS)
 
 namespace CORE.NG.UOW
 {
