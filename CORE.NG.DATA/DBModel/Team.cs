@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CORE.NG.DATA.DBModel
 {
+    [System.Serializable]
     public class Team
     {
         [Key]

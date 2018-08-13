@@ -2,6 +2,7 @@ using CORE.NG.DATA.Repository;
 using CORE.NG.DATA.DBModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using CORE.NG.CACHE;
 
 namespace CORE.NG.API.Controllers
 {
@@ -30,6 +31,9 @@ namespace CORE.NG.API.Controllers
         [Route("Get")]
         public IActionResult GetTeam()
         {
+            List<Team> team = CacheManager.Get<List<Team>>("teams");
+            List<Team> teams = this.userRepository.Get();
+            CacheManager.Set("teams", teams);
             return Ok(this.userRepository.Get());
         }
     }
