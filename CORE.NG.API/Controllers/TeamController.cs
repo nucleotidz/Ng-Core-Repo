@@ -19,9 +19,9 @@ namespace CORE.NG.API.Controllers
         [Produces(typeof(IActionResult))]
         [Route("Create")]
         public IActionResult Create()
-        {
-           
-            this.userRepository.Save();           
+        {           
+            this.userRepository.Save();
+            CacheManager.Remove("teams");
             return Ok();
         }
 
@@ -32,9 +32,12 @@ namespace CORE.NG.API.Controllers
         public IActionResult GetTeam()
         {
             List<Team> team = CacheManager.Get<List<Team>>("teams");
-            List<Team> teams = this.userRepository.Get();
-            CacheManager.Set("teams", teams);
-            return Ok(this.userRepository.Get());
+            if (team == null)
+            {
+                team = this.userRepository.Get();
+                CacheManager.Set<List<Team>>("teams", team);
+            }          
+            return Ok(team);
         }
     }
 }
