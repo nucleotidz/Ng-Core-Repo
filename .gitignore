@@ -2,5 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
-/CORE.NG.CACHE
+/.vs/EY-APP-WEB/v15/Server/sqlite3
