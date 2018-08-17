@@ -7,3 +7,12 @@ C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.CACHE\bin\Debug\netcoreapp
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.CACHE\obj\Debug\netcoreapp2.0\CORE.NG.CACHE.dll
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.CACHE\obj\Debug\netcoreapp2.0\CORE.NG.CACHE.pdb
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.CACHE\obj\Debug\netcoreapp2.0\CORE.NG.CACHE.csprojAssemblyReference.cache
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.CACHE\bin\Debug\netcoreapp2.0\CORE.NG.CACHE.deps.json
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.CACHE\bin\Debug\netcoreapp2.0\CORE.NG.CACHE.dll
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.CACHE\bin\Debug\netcoreapp2.0\CORE.NG.CACHE.pdb
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.CACHE\obj\Debug\netcoreapp2.0\CORE.NG.CACHE.csprojAssemblyReference.cache
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.CACHE\obj\Debug\netcoreapp2.0\CORE.NG.CACHE.csproj.CoreCompileInputs.cache
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.CACHE\obj\Debug\netcoreapp2.0\CORE.NG.CACHE.AssemblyInfoInputs.cache
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.CACHE\obj\Debug\netcoreapp2.0\CORE.NG.CACHE.AssemblyInfo.cs
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.CACHE\obj\Debug\netcoreapp2.0\CORE.NG.CACHE.dll
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.CACHE\obj\Debug\netcoreapp2.0\CORE.NG.CACHE.pdb
