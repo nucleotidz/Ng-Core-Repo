@@ -7,12 +7,3 @@ C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\obj\Debug\netcoreap
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.AssemblyInfo.cs
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.dll
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.pdb
-C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.MODELS\bin\Debug\netcoreapp2.0\CORE.NG.MODELS.deps.json
-C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.MODELS\bin\Debug\netcoreapp2.0\CORE.NG.MODELS.dll
-C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.MODELS\bin\Debug\netcoreapp2.0\CORE.NG.MODELS.pdb
-C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.csprojAssemblyReference.cache
-C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.csproj.CoreCompileInputs.cache
-C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.AssemblyInfoInputs.cache
-C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.AssemblyInfo.cs
-C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.dll
-C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.pdb
