@@ -1,12 +1,12 @@
 ﻿using CORE.NG.DATA.DBModel;
-using CORE.NG.UOW;
+using CORE.NG.MODELS;
 using System.Collections.Generic;
 
 namespace CORE.NG.DATA.Repository
 {
-    public interface ITeamRepository: IBaseRepository
+    public interface ITeamRepository
     {
         void Save();
-        List<Team> Get();
+        List<TeamDTO> Get();
     }
 }

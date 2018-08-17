@@ -1,12 +1,13 @@
 
-using CORE.NG.DATA.Repository;
 using CORE.NG.DATA.Context;
-using CORE.NG.UOW;
+using CORE.NG.DATA.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NG.CORE.BUSINESS;
 
 namespace CORE.NG.API
 {
@@ -22,9 +23,11 @@ namespace CORE.NG.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DataContext>();
-            services.AddScoped<IUnitOfWork, UnitOfWork<DataContext>>();
-            services.AddScoped<ITeamRepository, TeamRepository>();            
+           // services.AddDbContext<DataContext>();
+            // services.AddDbContext<IDevDataContext, SqliteDataContext>(x => x.UseSqlite(Configuration.GetConnectionString("SqliteConnection")));
+            services.AddDbContext<IDataContext, DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("SqliteConnection")));
+            services.AddScoped<ITeamRepository, TeamRepository>();
+            services.AddScoped<ITeamBL, TeamBL>();
             services.AddMvc();
         }
 

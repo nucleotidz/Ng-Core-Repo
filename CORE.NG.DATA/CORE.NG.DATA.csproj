@@ -11,7 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CORE.NG.UOW\CORE.NG.UOW.csproj" />
+    <ProjectReference Include="..\CORE.NG.CACHE\CORE.NG.CACHE.csproj" />
+    <ProjectReference Include="..\CORE.NG.MODELS\CORE.NG.MODELS.csproj" />
   </ItemGroup>
 
 </Project>

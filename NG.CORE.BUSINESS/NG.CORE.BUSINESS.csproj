@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CORE.NG.DATA\CORE.NG.DATA.csproj" />
+    <ProjectReference Include="..\CORE.NG.MODELS\CORE.NG.MODELS.csproj" />
+  </ItemGroup>
+
+</Project>

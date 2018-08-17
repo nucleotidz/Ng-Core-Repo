@@ -39,7 +39,8 @@
   <ItemGroup>
     <ProjectReference Include="..\CORE.NG.CACHE\CORE.NG.CACHE.csproj" />
     <ProjectReference Include="..\CORE.NG.DATA\CORE.NG.DATA.csproj" />
-    <ProjectReference Include="..\CORE.NG.UOW\CORE.NG.UOW.csproj" />
+    <ProjectReference Include="..\CORE.NG.MODELS\CORE.NG.MODELS.csproj" />
+    <ProjectReference Include="..\NG.CORE.BUSINESS\NG.CORE.BUSINESS.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,43 +1,38 @@
-using CORE.NG.DATA.Repository;
 using CORE.NG.DATA.DBModel;
+using CORE.NG.MODELS;
 using Microsoft.AspNetCore.Mvc;
+using NG.CORE.BUSINESS;
 using System.Collections.Generic;
-using CORE.NG.CACHE;
 
 namespace CORE.NG.API.Controllers
 {
     [Route("api/[controller]")]
     public class TeamController : Controller
     {
-        ITeamRepository userRepository;
-        public TeamController(ITeamRepository _userRepository)
+        ITeamBL teamBL;
+
+        public TeamController(ITeamBL _teamBL)
         {
-            this.userRepository = _userRepository;
+            this.teamBL = _teamBL;
         }
 
         [HttpGet]
         [Produces(typeof(IActionResult))]
         [Route("Create")]
         public IActionResult Create()
-        {           
-            this.userRepository.Save();
-            CacheManager.Remove("teams");
+        {
+            this.teamBL.Save();
             return Ok();
         }
 
-        
+
         [HttpGet]
         [Produces(typeof(List<Team>))]
         [Route("Get")]
         public IActionResult GetTeam()
         {
-            List<Team> team = CacheManager.Get<List<Team>>("teams");
-            if (team == null)
-            {
-                team = this.userRepository.Get();
-                CacheManager.Set<List<Team>>("teams", team);
-            }          
-            return Ok(team);
+            List<TeamDTO> team = this.teamBL.Get();
+            return Ok();
         }
     }
 }

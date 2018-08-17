@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CORE.NG.DATA.Context;
+using System.ComponentModel.DataAnnotations;
 
 namespace CORE.NG.DATA.DBModel
 {
-    public class user
+    public class user: ISupportIdentity
     {
         [Key]
         public int Id { get; set; }
