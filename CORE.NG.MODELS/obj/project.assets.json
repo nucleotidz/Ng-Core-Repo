@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rihan.gulnar\\.nuget\\packages\\": {},
+    "C:\\Users\\ahmar.husain\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj",
+      "projectUniqueName": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj",
       "projectName": "CORE.NG.MODELS",
-      "projectPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj",
-      "packagesPath": "C:\\Users\\rihan.gulnar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.MODELS\\obj\\",
+      "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj",
+      "packagesPath": "C:\\Users\\ahmar.husain\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rihan.gulnar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ahmar.husain\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

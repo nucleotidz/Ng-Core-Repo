@@ -11,15 +11,20 @@ namespace NG.CORE.BUSINESSTest
     [TestClass]
     public class TeamBLTest
     {
-
+       static Mock<ITeamRepository> mockRepository;
+       static  TeamBL team;
+        [ClassInitialize]
+        public static void Init(TestContext context)
+        {
+            mockRepository = new Mock<ITeamRepository>();
+            team = new TeamBL(mockRepository.Object);
+        }
 
         [TestMethod]
         public void TeamBL_Get()
         {
-            var teamBlMock = new Mock<ITeamRepository>();
-            teamBlMock.Setup(t => t.Get()).Returns(new List<TeamDTO>());
-            var teamBLObj = new TeamBL(teamBlMock.Object);
-            var results = teamBLObj.Get();
+            mockRepository.Setup(t => t.Get()).Returns(new List<TeamDTO>());
+            var results = team.Get();
             Assert.IsNotNull(results);
         }
 
@@ -27,10 +32,8 @@ namespace NG.CORE.BUSINESSTest
         [ExpectedException(typeof(Exception))]
         public void TeamBL_Get_WithException()
         {
-            var teamBlMock = new Mock<ITeamRepository>();
-            teamBlMock.Setup(t => t.Get()).Throws(new Exception("Test Exception!!"));
-            var teamBLObj = new TeamBL(teamBlMock.Object);
-            var results = teamBLObj.Get();
+            mockRepository.Setup(t => t.Get()).Throws(new Exception("Test Exception!!"));
+            var results = team.Get();
         }
 
 

@@ -13,9 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NG.CORE.BUSINESS", "NG.CORE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CORE.NG.MODELS", "CORE.NG.MODELS\CORE.NG.MODELS.csproj", "{83FE6947-DF2E-46CC-873E-C3AF5B666B0F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{9E37977A-BA4C-4C2E-9F4A-7B0E793F7E03}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NG.CORE.BUSINESSTest", "NG.CORE.BUSINESSTest\NG.CORE.BUSINESSTest.csproj", "{E44441D0-FD70-4716-9D5B-AEF834BA6C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NG.CORE.BUSINESS.TEST", "NG.CORE.BUSINESSTest\NG.CORE.BUSINESS.TEST.csproj", "{E44441D0-FD70-4716-9D5B-AEF834BA6C93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,9 +74,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E44441D0-FD70-4716-9D5B-AEF834BA6C93} = {9E37977A-BA4C-4C2E-9F4A-7B0E793F7E03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F6322AD-295F-4BA5-A353-23613DB21377}
