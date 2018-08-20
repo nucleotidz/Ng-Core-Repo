@@ -29,6 +29,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="ClientApp\angular.json" />
+    <Content Include="ClientApp\e2e\tsconfig.e2e.json" />
+    <Content Include="ClientApp\package-lock.json" />
+    <Content Include="ClientApp\package.json" />
+    <Content Include="ClientApp\src\tsconfig.app.json" />
+    <Content Include="ClientApp\src\tsconfig.spec.json" />
+    <Content Include="ClientApp\src\tslint.json" />
+    <Content Include="ClientApp\tsconfig.json" />
+    <Content Include="ClientApp\tslint.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CORE.NG.CACHE\CORE.NG.CACHE.csproj" />
     <ProjectReference Include="..\CORE.NG.DATA\CORE.NG.DATA.csproj" />
     <ProjectReference Include="..\CORE.NG.MODELS\CORE.NG.MODELS.csproj" />

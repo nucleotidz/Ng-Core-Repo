@@ -26,10 +26,16 @@ namespace CORE.NG.API.Controllers
         }
 
 
+        [HttpGet]        
+        public IActionResult GetTeam()
+        {
+            return Ok(new TeamDTO { Id = 1, name = "team" });
+        }
+
         [HttpGet]
         [Produces(typeof(List<Team>))]
         [Route("Get")]
-        public IActionResult GetTeam()
+        public IActionResult GetTeams()
         {
             List<TeamDTO> team = this.teamBL.Get();
             return Ok();
