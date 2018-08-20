@@ -3,11 +3,3 @@
 ################################################################################
 
 /.vs/EY-APP-WEB/v15/Server/sqlite3
-/CORE.NG.CACHE/obj/Release/netcoreapp2.0
-/CORE.NG.DATA/obj/Debug/netcoreapp2.0
-/CORE.NG.CACHE/obj/Debug/netcoreapp2.0
-/CORE.NG.DATA/obj/Release/netcoreapp2.0
-/CORE.NG.API/Controllers
-/CORE.NG.MODELS/obj
-/NG.CORE.BUSINESS/obj
-/.vs/VSWorkspaceState.json
