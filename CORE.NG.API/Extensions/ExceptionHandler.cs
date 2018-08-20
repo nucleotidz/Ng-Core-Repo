@@ -24,7 +24,7 @@ namespace CORE.NG.API.Extensions
                             await context.Response.WriteAsync(new
                             {
                                 StatusCode = (int)HttpStatusCode.Forbidden,
-                                Message = string.Concat(contextFeature.Error.Message),
+                                Message = string.Concat("Buisness Exception - ",contextFeature.Error.Message),
                             }.ToString());
                         }
                         else if (t != null && t.FullName.Contains("ValidationException"))
@@ -32,7 +32,7 @@ namespace CORE.NG.API.Extensions
                             await context.Response.WriteAsync(new
                             {
                                 StatusCode = (int)HttpStatusCode.ExpectationFailed,
-                                Message = string.Concat(contextFeature.Error.Message),
+                                Message = string.Concat("Model Validation Failed - ", contextFeature.Error.Message),
                             }.ToString());
                         }
                         else
@@ -40,7 +40,7 @@ namespace CORE.NG.API.Extensions
                             await context.Response.WriteAsync(new
                             {
                                 StatusCode = (int)HttpStatusCode.InternalServerError,
-                                Message = string.Concat("Unknown Error Occured at ", contextFeature.Error.ToString())
+                                Message = string.Concat(contextFeature.Error.ToString())
                             }.ToString());
                         }
                     }
