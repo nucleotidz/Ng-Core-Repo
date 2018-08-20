@@ -14,3 +14,5 @@ C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.DATA\bin\Debug\netcoreapp2
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.DATA\bin\Debug\netcoreapp2.0\CORE.NG.CACHE.pdb
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.DATA\bin\Debug\netcoreapp2.0\CORE.NG.MODELS.pdb
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.DATA\obj\Debug\netcoreapp2.0\CORE.NG.DATA.csproj.CopyComplete
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.DATA\bin\Debug\netcoreapp2.0\CORE.NG.VALIDATION.dll
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.DATA\bin\Debug\netcoreapp2.0\CORE.NG.VALIDATION.pdb

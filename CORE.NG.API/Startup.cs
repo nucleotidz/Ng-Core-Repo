@@ -1,5 +1,6 @@
 
 using CORE.NG.API.Extensions;
+using CORE.NG.API.Filters;
 using CORE.NG.DATA.Context;
 using CORE.NG.DATA.Repository;
 using Microsoft.AspNetCore.Builder;
@@ -24,12 +25,15 @@ namespace CORE.NG.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-           // services.AddDbContext<DataContext>();
+            // services.AddDbContext<DataContext>();
             // services.AddDbContext<IDevDataContext, SqliteDataContext>(x => x.UseSqlite(Configuration.GetConnectionString("SqliteConnection")));
             services.AddDbContext<IDataContext, DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("SqliteConnection")));
             services.AddScoped<ITeamRepository, TeamRepository>();
             services.AddScoped<ITeamBL, TeamBL>();
-            services.AddMvc();
+            services.AddMvc(options =>
+            {
+                options.Filters.Add(typeof(Validator));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "CORE.NG.MODELS/1.0.0": {
+        "dependencies": {
+          "CORE.NG.VALIDATION": "1.0.0"
+        },
         "runtime": {
           "CORE.NG.MODELS.dll": {}
+        }
+      },
+      "CORE.NG.VALIDATION/1.0.0": {
+        "runtime": {
+          "CORE.NG.VALIDATION.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CORE.NG.MODELS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CORE.NG.VALIDATION/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

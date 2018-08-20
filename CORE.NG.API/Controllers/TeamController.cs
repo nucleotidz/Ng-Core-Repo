@@ -16,20 +16,13 @@ namespace CORE.NG.API.Controllers
             this.teamBL = _teamBL;
         }
 
-        [HttpGet]
+        [HttpPost]
         [Produces(typeof(IActionResult))]
         [Route("Create")]
-        public IActionResult Create()
-        {
-            this.teamBL.Save();
+        public IActionResult Create(TeamDTO team)
+        {          
+            this.teamBL.Save(team);
             return Ok();
-        }
-
-
-        [HttpGet]        
-        public IActionResult GetTeam()
-        {
-            return Ok(new TeamDTO { Id = 1, name = "team" });
         }
 
         [HttpGet]
@@ -38,7 +31,7 @@ namespace CORE.NG.API.Controllers
         public IActionResult GetTeams()
         {
             List<TeamDTO> team = this.teamBL.Get();
-            return Ok();
+            return Ok(team);
         }
     }
 }

@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "CORE.NG.VALIDATION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CORE.NG.VALIDATION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CORE.NG.VALIDATION.dll": {}
+        }
       }
     }
   },
@@ -656,10 +666,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "CORE.NG.VALIDATION/1.0.0": {
+      "type": "project",
+      "path": "../CORE.NG.VALIDATION/CORE.NG.VALIDATION.csproj",
+      "msbuildProject": "../CORE.NG.VALIDATION/CORE.NG.VALIDATION.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "CORE.NG.VALIDATION >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -692,7 +708,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.VALIDATION\\CORE.NG.VALIDATION.csproj": {
+              "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.VALIDATION\\CORE.NG.VALIDATION.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

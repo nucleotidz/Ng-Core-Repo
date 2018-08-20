@@ -14,15 +14,16 @@ namespace NG.CORE.BUSINESS
         {
             this.teamRepository = _teamRepository;
         }
-        public void Save()
+        public void Save(TeamDTO team)
         {
-            this.teamRepository.Save();
+            this.teamRepository.Save(team);
 
         }
         public List<TeamDTO> Get()
         {
-          //  throw new BuisnessException("My exception");
+           throw new BuisnessException("My exception");
            return this.teamRepository.Get();
+
         }
     }
 }

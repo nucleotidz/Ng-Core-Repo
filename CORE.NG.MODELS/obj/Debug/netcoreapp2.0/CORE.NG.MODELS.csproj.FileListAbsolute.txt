@@ -7,3 +7,6 @@ C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\obj\Debug\netcoreap
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.dll
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.pdb
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.csprojAssemblyReference.cache
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\bin\Debug\netcoreapp2.0\CORE.NG.VALIDATION.dll
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\bin\Debug\netcoreapp2.0\CORE.NG.VALIDATION.pdb
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.MODELS\obj\Debug\netcoreapp2.0\CORE.NG.MODELS.csproj.CopyComplete

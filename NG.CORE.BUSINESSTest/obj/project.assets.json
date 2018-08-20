@@ -2648,11 +2648,24 @@
       "CORE.NG.MODELS/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "CORE.NG.VALIDATION": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CORE.NG.MODELS.dll": {}
         },
         "runtime": {
           "bin/placeholder/CORE.NG.MODELS.dll": {}
+        }
+      },
+      "CORE.NG.VALIDATION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CORE.NG.VALIDATION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CORE.NG.VALIDATION.dll": {}
         }
       },
       "NG.CORE.BUSINESS/1.0.0": {
@@ -8512,6 +8525,11 @@
       "type": "project",
       "path": "../CORE.NG.MODELS/CORE.NG.MODELS.csproj",
       "msbuildProject": "../CORE.NG.MODELS/CORE.NG.MODELS.csproj"
+    },
+    "CORE.NG.VALIDATION/1.0.0": {
+      "type": "project",
+      "path": "../CORE.NG.VALIDATION/CORE.NG.VALIDATION.csproj",
+      "msbuildProject": "../CORE.NG.VALIDATION/CORE.NG.VALIDATION.csproj"
     },
     "NG.CORE.BUSINESS/1.0.0": {
       "type": "project",

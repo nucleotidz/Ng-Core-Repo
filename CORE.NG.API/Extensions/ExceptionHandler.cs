@@ -2,10 +2,7 @@
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Threading.Tasks;
 
 namespace CORE.NG.API.Extensions
 {
@@ -27,6 +24,14 @@ namespace CORE.NG.API.Extensions
                             await context.Response.WriteAsync(new
                             {
                                 StatusCode = (int)HttpStatusCode.Forbidden,
+                                Message = string.Concat(contextFeature.Error.Message),
+                            }.ToString());
+                        }
+                        else if (t != null && t.FullName.Contains("ValidationException"))
+                        {
+                            await context.Response.WriteAsync(new
+                            {
+                                StatusCode = (int)HttpStatusCode.ExpectationFailed,
                                 Message = string.Concat(contextFeature.Error.Message),
                             }.ToString());
                         }
