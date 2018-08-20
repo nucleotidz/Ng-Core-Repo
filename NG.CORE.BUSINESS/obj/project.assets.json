@@ -1752,6 +1752,16 @@
           "bin/placeholder/CORE.NG.DATA.dll": {}
         }
       },
+      "CORE.NG.EXCEPTION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CORE.NG.EXCEPTION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CORE.NG.EXCEPTION.dll": {}
+        }
+      },
       "CORE.NG.MODELS/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -5925,6 +5935,11 @@
       "path": "../CORE.NG.DATA/CORE.NG.DATA.csproj",
       "msbuildProject": "../CORE.NG.DATA/CORE.NG.DATA.csproj"
     },
+    "CORE.NG.EXCEPTION/1.0.0": {
+      "type": "project",
+      "path": "../CORE.NG.EXCEPTION/CORE.NG.EXCEPTION.csproj",
+      "msbuildProject": "../CORE.NG.EXCEPTION/CORE.NG.EXCEPTION.csproj"
+    },
     "CORE.NG.MODELS/1.0.0": {
       "type": "project",
       "path": "../CORE.NG.MODELS/CORE.NG.MODELS.csproj",
@@ -5934,6 +5949,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "CORE.NG.DATA >= 1.0.0",
+      "CORE.NG.EXCEPTION >= 1.0.0",
       "CORE.NG.MODELS >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -5970,6 +5986,9 @@
           "projectReferences": {
             "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.DATA\\CORE.NG.DATA.csproj": {
               "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.DATA\\CORE.NG.DATA.csproj"
+            },
+            "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.EXCEPTION\\CORE.NG.EXCEPTION.csproj": {
+              "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.EXCEPTION\\CORE.NG.EXCEPTION.csproj"
             },
             "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj": {
               "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj"

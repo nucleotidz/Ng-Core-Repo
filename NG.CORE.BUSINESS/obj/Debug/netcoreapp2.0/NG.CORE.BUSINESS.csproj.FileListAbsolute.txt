@@ -14,3 +14,5 @@ C:\Users\ahmar.husain\source\repos\EY-APP-WEB\NG.CORE.BUSINESS\obj\Debug\netcore
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\NG.CORE.BUSINESS\obj\Debug\netcoreapp2.0\NG.CORE.BUSINESS.csproj.CopyComplete
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\NG.CORE.BUSINESS\obj\Debug\netcoreapp2.0\NG.CORE.BUSINESS.dll
 C:\Users\ahmar.husain\source\repos\EY-APP-WEB\NG.CORE.BUSINESS\obj\Debug\netcoreapp2.0\NG.CORE.BUSINESS.pdb
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\NG.CORE.BUSINESS\bin\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.dll
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\NG.CORE.BUSINESS\bin\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.pdb

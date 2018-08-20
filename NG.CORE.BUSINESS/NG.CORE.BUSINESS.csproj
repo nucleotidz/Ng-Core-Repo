@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CORE.NG.DATA\CORE.NG.DATA.csproj" />
+    <ProjectReference Include="..\CORE.NG.EXCEPTION\CORE.NG.EXCEPTION.csproj" />
     <ProjectReference Include="..\CORE.NG.MODELS\CORE.NG.MODELS.csproj" />
   </ItemGroup>
 
