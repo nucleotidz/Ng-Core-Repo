@@ -2635,6 +2635,16 @@
           "bin/placeholder/CORE.NG.DATA.dll": {}
         }
       },
+      "CORE.NG.EXCEPTION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CORE.NG.EXCEPTION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CORE.NG.EXCEPTION.dll": {}
+        }
+      },
       "CORE.NG.MODELS/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -2650,6 +2660,7 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "CORE.NG.DATA": "1.0.0",
+          "CORE.NG.EXCEPTION": "1.0.0",
           "CORE.NG.MODELS": "1.0.0"
         },
         "compile": {
@@ -8491,6 +8502,11 @@
       "type": "project",
       "path": "../CORE.NG.DATA/CORE.NG.DATA.csproj",
       "msbuildProject": "../CORE.NG.DATA/CORE.NG.DATA.csproj"
+    },
+    "CORE.NG.EXCEPTION/1.0.0": {
+      "type": "project",
+      "path": "../CORE.NG.EXCEPTION/CORE.NG.EXCEPTION.csproj",
+      "msbuildProject": "../CORE.NG.EXCEPTION/CORE.NG.EXCEPTION.csproj"
     },
     "CORE.NG.MODELS/1.0.0": {
       "type": "project",

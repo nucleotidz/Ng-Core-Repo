@@ -1,4 +1,5 @@
 
+using CORE.NG.API.Extensions;
 using CORE.NG.DATA.Context;
 using CORE.NG.DATA.Repository;
 using Microsoft.AspNetCore.Builder;
@@ -36,7 +37,7 @@ namespace CORE.NG.API
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.ConfigureExceptionHandler();
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
                     HotModuleReplacement = true
@@ -44,7 +45,7 @@ namespace CORE.NG.API
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.ConfigureExceptionHandler();
             }
 
             app.UseStaticFiles();
