@@ -1,0 +1,13 @@
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\bin\Debug\netcoreapp2.0\nlog.config
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\bin\Debug\netcoreapp2.0\CORE.NG.LOGGER.deps.json
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\bin\Debug\netcoreapp2.0\CORE.NG.LOGGER.dll
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\bin\Debug\netcoreapp2.0\CORE.NG.LOGGER.pdb
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\bin\Debug\netcoreapp2.0\CORE.NG.MODELS.dll
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\bin\Debug\netcoreapp2.0\CORE.NG.MODELS.pdb
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\obj\Debug\netcoreapp2.0\CORE.NG.LOGGER.csprojAssemblyReference.cache
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\obj\Debug\netcoreapp2.0\CORE.NG.LOGGER.csproj.CoreCompileInputs.cache
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\obj\Debug\netcoreapp2.0\CORE.NG.LOGGER.AssemblyInfoInputs.cache
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\obj\Debug\netcoreapp2.0\CORE.NG.LOGGER.AssemblyInfo.cs
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\obj\Debug\netcoreapp2.0\CORE.NG.LOGGER.csproj.CopyComplete
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\obj\Debug\netcoreapp2.0\CORE.NG.LOGGER.dll
+C:\Users\rihan.gulnar\Source\Repos\Ng-Core-Repo2\CORE.NG.LOGGER\obj\Debug\netcoreapp2.0\CORE.NG.LOGGER.pdb

@@ -28,8 +28,9 @@ namespace CORE.NG.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-           // services.AddDbContext<DataContext>();
+            // services.AddDbContext<DataContext>();
             // services.AddDbContext<IDevDataContext, SqliteDataContext>(x => x.UseSqlite(Configuration.GetConnectionString("SqliteConnection")));
+            services.AddSingleton<IConfiguration>(Configuration);
             services.AddDbContext<IDataContext, DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("SqliteConnection")));
             services.AddScoped<ITeamRepository, TeamRepository>();
             services.AddScoped<ITeamBL, TeamBL>();
