@@ -5973,23 +5973,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ahmar.husain\\.nuget\\packages\\": {},
+    "C:\\Users\\rihan.gulnar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\NG.CORE.BUSINESS\\NG.CORE.BUSINESS.csproj",
+      "projectUniqueName": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\NG.CORE.BUSINESS\\NG.CORE.BUSINESS.csproj",
       "projectName": "NG.CORE.BUSINESS",
-      "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\NG.CORE.BUSINESS\\NG.CORE.BUSINESS.csproj",
-      "packagesPath": "C:\\Users\\ahmar.husain\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\NG.CORE.BUSINESS\\obj\\",
+      "projectPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\NG.CORE.BUSINESS\\NG.CORE.BUSINESS.csproj",
+      "packagesPath": "C:\\Users\\rihan.gulnar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\NG.CORE.BUSINESS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ahmar.husain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rihan.gulnar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6002,14 +6002,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.DATA\\CORE.NG.DATA.csproj": {
-              "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.DATA\\CORE.NG.DATA.csproj"
+            "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.DATA\\CORE.NG.DATA.csproj": {
+              "projectPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.DATA\\CORE.NG.DATA.csproj"
             },
-            "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.EXCEPTION\\CORE.NG.EXCEPTION.csproj": {
-              "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.EXCEPTION\\CORE.NG.EXCEPTION.csproj"
+            "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.EXCEPTION\\CORE.NG.EXCEPTION.csproj": {
+              "projectPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.EXCEPTION\\CORE.NG.EXCEPTION.csproj"
             },
-            "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj": {
-              "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj"
+            "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj": {
+              "projectPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj"
             }
           }
         }

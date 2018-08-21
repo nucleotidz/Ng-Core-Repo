@@ -14,6 +14,10 @@ namespace CORE.NG.LOGGER
         Logger _logger;
         IConfiguration _configuration;
         string _loggerName = "DbnLogger";
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="configuration"></param>
         public NLogger(IConfiguration configuration)
         {
 
@@ -25,7 +29,13 @@ namespace CORE.NG.LOGGER
             _logger = LogManager.GetCurrentClassLogger(typeof(Logger));
             _configuration = configuration; // appsettings configuration
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task DebugAsync(Exception exception, string format, params object[] args)
         {
             if (!_logger.IsDebugEnabled) return;
@@ -38,7 +48,13 @@ namespace CORE.NG.LOGGER
                 _logger.Log(logEvent);
             });
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task ErrorAsync(Exception exception, string format, params object[] args)
         {
             if (!_logger.IsErrorEnabled) return;
@@ -50,7 +66,13 @@ namespace CORE.NG.LOGGER
                 _logger.Log(logEvent);
             });
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task FatalAsync(Exception exception, string format, params object[] args)
         {
             if (!_logger.IsFatalEnabled) return;
@@ -62,7 +84,13 @@ namespace CORE.NG.LOGGER
                 _logger.Log(logEvent);
             });
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task InfoAsync(Exception exception, string format, params object[] args)
         {
             if (!_logger.IsInfoEnabled) return;
@@ -74,7 +102,13 @@ namespace CORE.NG.LOGGER
                 _logger.Log(logEvent);
             });
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task TraceAsync(Exception exception, string format, params object[] args)
         {
             if (!_logger.IsTraceEnabled) return;
@@ -86,7 +120,13 @@ namespace CORE.NG.LOGGER
                 _logger.Log(logEvent);
             });
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task WarnAsync(Exception exception, string format, params object[] args)
         {
             if (!_logger.IsWarnEnabled) return;
@@ -98,62 +138,127 @@ namespace CORE.NG.LOGGER
                 _logger.Log(logEvent);
             });
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <returns></returns>
         public async Task DebugAsync(Exception exception)
         {
             await DebugAsync(exception, string.Empty);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <returns></returns>
         public async Task ErrorAsync(Exception exception)
         {
             await ErrorAsync(exception, string.Empty);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <returns></returns>
         public async Task FatalAsync(Exception exception)
         {
             await this.FatalAsync(exception, string.Empty);
         }
-
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <returns></returns>
         public async Task InfoAsync(Exception exception)
         {
             await InfoAsync(exception, string.Empty);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <returns></returns>
         public async Task TraceAsync(Exception exception)
         {
             await TraceAsync(exception, string.Empty);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="exception"></param>
+        /// <returns></returns>
         public async Task WarnAsync(Exception exception)
         {
             await WarnAsync(exception, string.Empty);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task DebugAsync(string format, params object[] args)
         {
             await DebugAsync(null, format, args);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task ErrorAsync(string format, params object[] args)
         {
             await ErrorAsync(null, format, args);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task FatalAsync(string format, params object[] args)
         {
             await FatalAsync(null, format, args);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task InfoAsync(string format, params object[] args)
         {
             await InfoAsync(null, format, args);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task TraceAsync(string format, params object[] args)
         {
             await TraceAsync(null, format, args);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="format"></param>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public async Task WarnAsync(string format, params object[] args)
         {
             await WarnAsync(null, format, args);

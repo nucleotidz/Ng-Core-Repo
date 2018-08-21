@@ -15,8 +15,10 @@ namespace CORE.NG.APITests
         public void TeamController_GetTeams_Valid()
         {
             var teamBlMock = new Mock<ITeamBL>();
+            var loggerMock = new Mock<ILoggerService>();
             teamBlMock.Setup(t => t.Get()).Returns(new List<TeamDTO>());
-            var teamController = new TeamController(teamBlMock.Object);
+            
+            var teamController = new TeamController(teamBlMock.Object,loggerMock.Object);
           
         }
     }

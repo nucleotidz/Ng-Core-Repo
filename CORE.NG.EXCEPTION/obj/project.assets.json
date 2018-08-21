@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ahmar.husain\\.nuget\\packages\\": {},
+    "C:\\Users\\rihan.gulnar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.EXCEPTION\\CORE.NG.EXCEPTION.csproj",
+      "projectUniqueName": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.EXCEPTION\\CORE.NG.EXCEPTION.csproj",
       "projectName": "CORE.NG.EXCEPTION",
-      "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.EXCEPTION\\CORE.NG.EXCEPTION.csproj",
-      "packagesPath": "C:\\Users\\ahmar.husain\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.EXCEPTION\\obj\\",
+      "projectPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.EXCEPTION\\CORE.NG.EXCEPTION.csproj",
+      "packagesPath": "C:\\Users\\rihan.gulnar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.EXCEPTION\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ahmar.husain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rihan.gulnar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
