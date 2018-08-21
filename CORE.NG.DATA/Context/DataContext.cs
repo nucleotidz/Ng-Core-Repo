@@ -6,7 +6,7 @@ namespace CORE.NG.DATA.Context
     public class DataContext : Repository, IDataContext
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
-        public DbSet<user> user { get; set; }
+        public DbSet<User> User { get; set; }
         public DbSet<Team> Team { get; set; }
 
         public DbSet<Role> Role { get; set; }

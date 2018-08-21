@@ -3,6 +3,7 @@ using CORE.NG.DATA.DBModel;
 using CORE.NG.DATA.Repository;
 using CORE.NG.MODELS;
 using System.Collections.Generic;
+using CORE.NG.EXCEPTION;
 
 namespace NG.CORE.BUSINESS
 {
@@ -13,14 +14,15 @@ namespace NG.CORE.BUSINESS
         {
             this.teamRepository = _teamRepository;
         }
-        public void Save()
+        public void Save(TeamDTO team)
         {
-            this.teamRepository.Save();
+            this.teamRepository.Save(team);
 
         }
         public List<TeamDTO> Get()
         {
-            return this.teamRepository.Get();
+           throw new BuisnessException("My exception");
+           return this.teamRepository.Get();
 
         }
     }

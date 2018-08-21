@@ -1738,11 +1738,24 @@
       "CORE.NG.MODELS/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "CORE.NG.VALIDATION": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CORE.NG.MODELS.dll": {}
         },
         "runtime": {
           "bin/placeholder/CORE.NG.MODELS.dll": {}
+        }
+      },
+      "CORE.NG.VALIDATION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CORE.NG.VALIDATION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CORE.NG.VALIDATION.dll": {}
         }
       }
     }
@@ -5907,6 +5920,11 @@
       "type": "project",
       "path": "../CORE.NG.MODELS/CORE.NG.MODELS.csproj",
       "msbuildProject": "../CORE.NG.MODELS/CORE.NG.MODELS.csproj"
+    },
+    "CORE.NG.VALIDATION/1.0.0": {
+      "type": "project",
+      "path": "../CORE.NG.VALIDATION/CORE.NG.VALIDATION.csproj",
+      "msbuildProject": "../CORE.NG.VALIDATION/CORE.NG.VALIDATION.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5920,23 +5938,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rihan.gulnar\\.nuget\\packages\\": {},
+    "C:\\Users\\ahmar.husain\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.DATA\\CORE.NG.DATA.csproj",
+      "projectUniqueName": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.DATA\\CORE.NG.DATA.csproj",
       "projectName": "CORE.NG.DATA",
-      "projectPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.DATA\\CORE.NG.DATA.csproj",
-      "packagesPath": "C:\\Users\\rihan.gulnar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.DATA\\obj\\",
+      "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.DATA\\CORE.NG.DATA.csproj",
+      "packagesPath": "C:\\Users\\ahmar.husain\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.DATA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rihan.gulnar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ahmar.husain\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5949,11 +5967,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.CACHE\\CORE.NG.CACHE.csproj": {
-              "projectPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.CACHE\\CORE.NG.CACHE.csproj"
+            "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.CACHE\\CORE.NG.CACHE.csproj": {
+              "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.CACHE\\CORE.NG.CACHE.csproj"
             },
-            "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj": {
-              "projectPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj"
+            "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj": {
+              "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj"
             }
           }
         }

@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "CORE.NG.VALIDATION/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CORE.NG.VALIDATION.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CORE.NG.VALIDATION.dll": {}
+        }
       }
     }
   },
@@ -656,31 +666,37 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "CORE.NG.VALIDATION/1.0.0": {
+      "type": "project",
+      "path": "../CORE.NG.VALIDATION/CORE.NG.VALIDATION.csproj",
+      "msbuildProject": "../CORE.NG.VALIDATION/CORE.NG.VALIDATION.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "CORE.NG.VALIDATION >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rihan.gulnar\\.nuget\\packages\\": {},
+    "C:\\Users\\ahmar.husain\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj",
+      "projectUniqueName": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj",
       "projectName": "CORE.NG.MODELS",
-      "projectPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj",
-      "packagesPath": "C:\\Users\\rihan.gulnar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rihan.gulnar\\Source\\Repos\\Ng-Core-Repo2\\CORE.NG.MODELS\\obj\\",
+      "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\CORE.NG.MODELS.csproj",
+      "packagesPath": "C:\\Users\\ahmar.husain\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.MODELS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rihan.gulnar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ahmar.husain\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -692,7 +708,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.VALIDATION\\CORE.NG.VALIDATION.csproj": {
+              "projectPath": "C:\\Users\\ahmar.husain\\source\\repos\\EY-APP-WEB\\CORE.NG.VALIDATION\\CORE.NG.VALIDATION.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

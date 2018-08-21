@@ -19,23 +19,22 @@ namespace CORE.NG.API.Controllers
             this.logger = _logger;
         }
 
-        [HttpGet]
+        [HttpPost]
         [Produces(typeof(IActionResult))]
         [Route("Create")]
-        public IActionResult Create()
-        {
-            this.teamBL.Save();
+        public IActionResult Create(TeamDTO team)
+        {          
+            this.teamBL.Save(team);
             return Ok();
         }
-
 
         [HttpGet]
         [Produces(typeof(List<Team>))]
         [Route("Get")]
-        public IActionResult GetTeam()
+        public IActionResult GetTeams()
         {
             List<TeamDTO> team = this.teamBL.Get();
-            return Ok();
+            return Ok(team);
         }
 
         [HttpGet]

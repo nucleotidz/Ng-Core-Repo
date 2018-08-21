@@ -1,4 +1,6 @@
 
+using CORE.NG.API.Extensions;
+using CORE.NG.API.Filters;
 using CORE.NG.DATA.Context;
 using CORE.NG.DATA.Repository;
 using CORE.NG.LOGGER;
@@ -34,6 +36,10 @@ namespace CORE.NG.API
             services.AddDbContext<IDataContext, DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("SqliteConnection")));
             services.AddScoped<ITeamRepository, TeamRepository>();
             services.AddScoped<ITeamBL, TeamBL>();
+            services.AddMvc(options =>
+            {
+                options.Filters.Add(typeof(Validator));
+            });
             services.AddSingleton<ILoggerService, NLogger>();
             services.AddMvc();
         }
@@ -43,7 +49,7 @@ namespace CORE.NG.API
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.ConfigureExceptionHandler();
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
                     HotModuleReplacement = true
@@ -51,7 +57,7 @@ namespace CORE.NG.API
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.ConfigureExceptionHandler();
             }
 
             app.UseStaticFiles();

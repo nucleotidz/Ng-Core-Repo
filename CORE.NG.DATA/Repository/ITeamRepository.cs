@@ -6,7 +6,7 @@ namespace CORE.NG.DATA.Repository
 {
     public interface ITeamRepository
     {
-        void Save();
+        void Save(TeamDTO team);
         List<TeamDTO> Get();
     }
 }

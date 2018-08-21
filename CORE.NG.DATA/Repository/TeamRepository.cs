@@ -21,12 +21,12 @@ namespace CORE.NG.DATA.Repository
 
         }
 
-        public void Save()
+        public void Save(TeamDTO team)
         {
             CacheManager.Remove("teams");
-            Team team = new Team();
-            team.name = "Shobhit";
-            this._repository.Insert<Team>(team);
+            Team teamtable = new Team();
+            team.name = team.name;
+            this._repository.Insert<Team>(teamtable);
             this._repository.SaveChanges();
         }
 

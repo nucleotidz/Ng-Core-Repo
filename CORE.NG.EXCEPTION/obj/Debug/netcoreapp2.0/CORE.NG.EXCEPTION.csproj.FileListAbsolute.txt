@@ -1,0 +1,12 @@
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\bin\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.deps.json
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\bin\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.dll
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\bin\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.pdb
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\obj\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.csprojAssemblyReference.cache
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\obj\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.csproj.CoreCompileInputs.cache
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\obj\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.AssemblyInfoInputs.cache
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\obj\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.AssemblyInfo.cs
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\obj\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.dll
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\obj\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.pdb
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\ahmar.husain\source\repos\EY-APP-WEB\CORE.NG.EXCEPTION\obj\Debug\netcoreapp2.0\CORE.NG.EXCEPTION.csproj.CopyComplete

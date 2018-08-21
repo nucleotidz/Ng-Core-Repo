@@ -13,6 +13,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.Caching.Redis.Core" Version="1.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="4.6.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
   </ItemGroup>
@@ -28,6 +29,18 @@
   <ItemGroup>
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
     <Content Remove="ClientApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ClientApp\angular.json" />
+    <Content Include="ClientApp\e2e\tsconfig.e2e.json" />
+    <Content Include="ClientApp\package-lock.json" />
+    <Content Include="ClientApp\package.json" />
+    <Content Include="ClientApp\src\tsconfig.app.json" />
+    <Content Include="ClientApp\src\tsconfig.spec.json" />
+    <Content Include="ClientApp\src\tslint.json" />
+    <Content Include="ClientApp\tsconfig.json" />
+    <Content Include="ClientApp\tslint.json" />
   </ItemGroup>
 
   <ItemGroup>

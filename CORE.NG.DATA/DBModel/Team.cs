@@ -12,6 +12,5 @@ namespace CORE.NG.DATA.DBModel
 
         [Required,MaxLength(50)]
         public string name { get; set; }
-        public List<user> user { get; set; }
     }
 }

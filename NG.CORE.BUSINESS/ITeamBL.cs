@@ -8,7 +8,7 @@ namespace NG.CORE.BUSINESS
 {
     public interface ITeamBL
     {
-        void Save();
+        void Save(TeamDTO team);
         List<TeamDTO> Get();
     }
 }
