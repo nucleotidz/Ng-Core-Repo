@@ -1,13 +1,18 @@
 
 using CORE.NG.DATA.Context;
 using CORE.NG.DATA.Repository;
+using CORE.NG.LOGGER;
+using CORE.NG.MODELS;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using NG.CORE.BUSINESS;
+using NLog;
+using NLog.Extensions.Logging;
 
 namespace CORE.NG.API
 {
@@ -28,11 +33,12 @@ namespace CORE.NG.API
             services.AddDbContext<IDataContext, DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("SqliteConnection")));
             services.AddScoped<ITeamRepository, TeamRepository>();
             services.AddScoped<ITeamBL, TeamBL>();
+            services.AddSingleton<ILoggerService, NLogger>();
             services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -48,7 +54,8 @@ namespace CORE.NG.API
             }
 
             app.UseStaticFiles();
-
+            //GlobalDiagnosticsContext.Set("connectionString", "");
+            //loggerFactory.AddNLog();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
